@@ -1,0 +1,14 @@
+puts "Olá! Qual é o seu nome?"
+nome = gets.chomp # Lê o nome do usuário
+
+puts "Prazer em conhecê-lo, #{nome}! Vamos fazer uma soma."
+
+puts "Digite o primeiro número:"
+numero1 = gets.chomp.to_i # Lê e converte o número para inteiro
+
+puts "Digite o segundo número:"
+numero2 = gets.chomp.to_i # Lê e converte o número para inteiro
+
+soma = numero1 + numero2
+
+puts "A soma de #{numero1} e #{numero2} é igual a #{soma}."
