@@ -12,3 +12,6 @@ numero2 = gets.chomp.to_i # Lê e converte o número para inteiro
 soma = numero1 + numero2
 
 puts "A soma de #{numero1} e #{numero2} é igual a #{soma}."
+
+
+.
